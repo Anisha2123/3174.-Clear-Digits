@@ -2,6 +2,7 @@
 
 C++
 ---------------------------------------------------------------------------
+
 ---------------------Brute Force Approach----------------------------------
 class Solution {
 public:
@@ -21,7 +22,7 @@ public:
 T.C-O(N*N)
 S.C-O(1)
 
----------------------Brute Force Approach----------------------------------
+---------------------Better Approach----------------------------------
 class Solution {
 public:
     string clearDigits(string s) {
@@ -45,7 +46,7 @@ public:
 };
 T.C-O(N)
 S.C-O(N)
----------------------Optimised Approach----------------------------------
+---------------------Optimized Approach----------------------------------
 class Solution {
 public:
     string clearDigits(string s) {
